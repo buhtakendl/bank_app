@@ -1,0 +1,51 @@
+HELP.md
+
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+
+# Liquibase
+liquibase.properties
+
+# Docker
+docker-compose.override.yml
+

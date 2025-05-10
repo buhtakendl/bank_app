@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-unique-constraint-card-number
+      author: Talgat
+      changes:
+        - addUniqueConstraint:
+            tableName: card
+            columnNames: encrypted_card_number
+            constraintName: uq_card_encrypted_number
